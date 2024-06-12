@@ -29,8 +29,8 @@ function loDropImage() {
     if (Glob.cropper)
         Glob.cropper.destroy()
 
-    let h1 = $("<h1></h1>").html("<br/>Free Rubik's cube mosaic generator optimized for portraits.");
-    let subtitle = $("<small></small>").html("https://rubikscubealgorithm.blogspot.com/<br/><br/>");
+    let h1 = $("<h1></h1>").html("Free Rubik's cube mosaic generator optimized for portraits.");
+    let subtitle = $("<p></p>").html("<a href='https://rubikscubealgorithm.blogspot.com/'>rubikscubealgorithm.blogspot.com</a><br/><br/>");
 
     let dropZoneConfig = {
         callback: onImageHasBeenLoaded,
