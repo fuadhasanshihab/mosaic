@@ -74,6 +74,7 @@ a.nav-link {
 .upload-drop-zone button {
   background-color: #fdd929!important;
   color: black!important;
+  border-color:#dfd626!important;
 }
 .rangeOptionCanvas {
     border: 1px solid #eee;
