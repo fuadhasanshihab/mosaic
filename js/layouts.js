@@ -29,8 +29,8 @@ function loDropImage() {
     if (Glob.cropper)
         Glob.cropper.destroy()
 
-    let h1 = $("<h1></h1>").html("Welcome to Bestsiteever Mosaic!");
-    let subtitle = $("<h4></h4>").html("Free Rubik's cube mosaic builder optimized for portraits");
+    let h1 = $("<h1></h1>").html("Free Rubik's cube mosaic builder optimized for portraits.");
+    let subtitle = $("<small></small>").html("https://rubikscubealgorithm.blogspot.com/");
 
     let dropZoneConfig = {
         callback: onImageHasBeenLoaded,
@@ -41,7 +41,7 @@ function loDropImage() {
 
     let div = $("<div class='container'></div>").append(h1, subtitle, dropZone, aboutText());
     $("#mainLayout").html(div);
-    setTitle('<span class="text-secondary">Bestsiteever Mosaic</span>');
+    setTitle('<span class="text-secondary">Rubik's Cube Mosaic Generator</span>');
     let tutorialWrap = $("#videoTutorialWrap");
 
     tutorialWrap.empty().append(
