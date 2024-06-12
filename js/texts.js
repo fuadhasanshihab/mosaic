@@ -16,4 +16,4 @@ Txt.littleHintUnder = "Mouse wheel to zoom in/out. Drag the box or the backgroun
 
 Txt.qaTitlesAndTexts = [
     "<h3 class='mt-4'>What is this?</h3>",
-    "You might have seen artists creating pictures from hundreds or even thousands of Rubik's cubes. The main challenge of this art is converting a full-color photo into a 6-color pixelized version. This tool automates the entire process for you."];
+    "You might have seen artists creating pictures from hundreds or even thousands of Rubik's cubes. The main challenge of this art is converting a full-color photo into a 6-color pixelized version. This tool automates the entire process for you.<br/><hr/><br/><small>Created by Roman Strakhov</small>"];
