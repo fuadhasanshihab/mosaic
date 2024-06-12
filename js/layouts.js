@@ -30,7 +30,7 @@ function loDropImage() {
         Glob.cropper.destroy()
 
     let h1 = $("<h1></h1>").html("<br/>Free Rubik's cube mosaic generator optimized for portraits.");
-    let subtitle = $("<small></small>").html("https://rubikscubealgorithm.blogspot.com/");
+    let subtitle = $("<small></small>").html("https://rubikscubealgorithm.blogspot.com/<br/><br/>");
 
     let dropZoneConfig = {
         callback: onImageHasBeenLoaded,
@@ -238,10 +238,10 @@ function loAdjustPortrait(chooseOptions, opt) {
 
     let promoDiv = $("<div class='alert alert-secondary mt-2' role='alert'>").append(
         $("<div/>").append(
-            $("<a href='https://discord.gg/8psRGEvyEj' target='_blank' class='btn btn-info form-control my-1'><i class='fab fa-discord'></i> Join Discord</a>"),
+            $("<a href='https://rubikscubealgorithm.blogspot.com/' target='_blank' class='btn btn-info form-control my-1'><i class='fab fa-globe'></i> Visit Website</a>"),
         ),
         $("<div/>").append(
-            $("<a class='btn btn-outline-info form-control my-1'  href='https://www.paypal.com/paypalme/romanisawesome' target='_blank'><i class='fab fa-paypal'></i> Support project</a>"),
+            $("<a class='btn btn-outline-info form-control my-1' style='display:none;'  href='' target='_blank'><i class='fa'></i></a>"),
         )
     ).css('display', 'none');
 
