@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 html {
     position: relative;
     min-height: 100%;
@@ -6,6 +8,11 @@ html {
 /* for footer */
 body {
   margin-bottom: 50px; /* Margin bottom by footer height */
+  font-family: "Poppins", sans-serif!important;
+  font-weight: 400!important;
+  background-color: #fafafa!important;
+  background: #fafafa!important;
+  color:black;
 }
 
 .footer {
@@ -55,11 +62,15 @@ a.nav-link {
   line-height: 200px;
   text-align: center
 }
+
 .upload-drop-zone.drop {
   color: #222;
   border-color: #222;
 }
-
+.upload-drop-zone button {
+  background-color: #fdd929!important;
+  color: black!important;
+}
 .rangeOptionCanvas {
     border: 1px solid #eee;
     cursor: pointer;
